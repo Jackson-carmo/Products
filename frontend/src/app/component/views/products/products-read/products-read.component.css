@@ -11,13 +11,30 @@
     color: rgb(60,60,60);
     font-weight: 500;
 }
+button {
+    margin-bottom: 1rem;
+}
+.product-button {
+    background-color: rgb(60,60,60);
+    color: #fff;
+}
 .products-table {
     width: 100%;
     background-color: rgb(60,60,60);
+}
+.products-mat-header {
+    width: 5rem;
 }
 th {
     color: #fff;
 }
 td {
     color: #fff;
+}
+.products-edit {
+    color: #fff;
+}
+.products-delete {
+    color: #fff;
+    margin-left: .5rem;
 }

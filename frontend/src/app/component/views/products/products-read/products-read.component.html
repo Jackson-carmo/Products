@@ -3,6 +3,8 @@
         <h1>Registered Products</h1>
     </div>
 
+    <button class="mat-elevation-z8" class="product-button" mat-raised-button>Add Product</button>
+
     <div class="mat-elevation-z8 content-table" >
       <table class="products-table" mat-table [dataSource]="products" >
 
@@ -31,8 +33,15 @@
         </ng-container>
 
         <ng-container matColumnDef="acoes">
-          <th mat-header-cell *matHeaderCellDef> AÇÕES </th>
-          <td mat-cell *matCellDef="let row">  </td>
+          <th class="products-mat-header" mat-header-cell *matHeaderCellDef> AÇÕES </th>
+          <td mat-cell *matCellDef="let row"> 
+            <a class="products-edit" href="#">
+              <i class="material-icons">edit</i>
+            </a>  
+            <a class="products-delete" href="#">
+              <i class="material-icons">delete</i>
+            </a> 
+          </td>
         </ng-container>
       
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
