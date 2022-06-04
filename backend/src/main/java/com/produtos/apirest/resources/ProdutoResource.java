@@ -22,7 +22,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping
 @Api(value="API REST Produtos")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ProdutoResource {
 	
 	@Autowired
