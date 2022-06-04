@@ -1,0 +1,27 @@
+.products-header {
+    background-color: rgb(60, 60, 60);
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.products-header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    justify-content: flex-start;
+}
+.products-contact {
+    display: flex;
+    align-items: center;
+}
+.products-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: #fff;
+}
+a {
+    text-decoration:none;
+}
